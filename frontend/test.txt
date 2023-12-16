@@ -1,0 +1,9 @@
+export interface ITutorialListType {
+    pk: string;
+    title: string;
+    description: string;
+    tutorial_url: string;
+    open_chat_url: string;
+    backend_framework_option: string;
+    // skill_for_frameWork: [{ pk: number; frame_work_name: string }];
+}
